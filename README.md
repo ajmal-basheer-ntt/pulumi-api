@@ -12,3 +12,10 @@ venv/bin/python main.py destroy
 | ------------- | ------------- |
 | main.py | Creates an S3 Bucket static site  |
 | main-k8s.py  | Creates a nginx pod in k8s  |
+| main-yaml.py  | Creates k8s resources in a yaml file  |
+| main-helm.py  | Creates k8s resources in a helm chart  |
+| terraform-example  | Convert terraform to Python  |
+
+
+Notes:
+Terraform can be converted to Python or another language using the Pulumi cli or tf2pulumi package - https://github.com/pulumi/tf2pulumi
